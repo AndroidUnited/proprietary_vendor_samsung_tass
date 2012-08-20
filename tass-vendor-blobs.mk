@@ -64,8 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/tass/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/tass/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
-    vendor/samsung/tass/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so \
-    vendor/samsung/tass/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so 
+    vendor/samsung/tass/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so
 
 ## Atheros AR6002 firmware
 PRODUCT_COPY_FILES += \
