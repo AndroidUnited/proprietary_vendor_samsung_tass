@@ -52,19 +52,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so
 
 ## Camera proprietaries
-#PRODUCT_COPY_FILES += \
-#    vendor/samsung/tass/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-#    vendor/samsung/tass/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-#    vendor/samsung/tass/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-#    vendor/samsung/tass/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-#    vendor/samsung/tass/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
-#    vendor/samsung/tass/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-#    vendor/samsung/tass/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
-#    vendor/samsung/tass/proprietary/lib/libcaps.so:system/lib/libcaps.so \
-#    vendor/samsung/tass/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
-#    vendor/samsung/tass/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
-#    vendor/samsung/tass/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
-#    vendor/samsung/tass/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tass/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/samsung/tass/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/samsung/tass/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/samsung/tass/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
+    vendor/samsung/tass/proprietary/lib/libarccamera.so:system/lib/libarccamera.so
 
 ## Atheros AR6002 firmware
 PRODUCT_COPY_FILES += \
