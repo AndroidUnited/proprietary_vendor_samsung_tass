@@ -57,7 +57,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/tass/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/samsung/tass/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-    vendor/samsung/tass/proprietary/lib/libarccamera.so:system/lib/libarccamera.so
+    vendor/samsung/tass/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+    vendor/samsung/tass/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/samsung/tass/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+    vendor/samsung/tass/proprietary/lib/libmmosal.so:system/lib/libmmosal.so 
 
 ## Atheros AR6002 firmware
 PRODUCT_COPY_FILES += \
