@@ -115,5 +115,5 @@ PRODUCT_COPY_FILES += \
 
 ## Sensor
 PRODUCT_COPY_FILES += \
-    vendor/samsung/tass/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/samsung/tass/proprietary/lib/hw/sensors.tass.so:system/lib/hw/sensors.tass.so \
     vendor/samsung/tass/proprietary/bin/memsicd:system/bin/memsicd 
